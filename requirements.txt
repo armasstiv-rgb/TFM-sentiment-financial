@@ -1,0 +1,69 @@
+# ============================================================
+# TFM: Integración de Algoritmos de Aprendizaje Profundo
+# para el Análisis de Sentimiento en Mercados Financieros
+# ============================================================
+
+# --- Core ML / Deep Learning ---
+torch>=2.3.0
+transformers>=4.41.0
+datasets>=2.20.0
+accelerate>=0.30.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# --- Forecasting / Series Temporales ---
+pytorch-forecasting>=1.1.1
+pytorch-lightning>=2.2.0
+xgboost>=2.0.3
+scikit-learn>=1.5.0
+
+# --- NLP ---
+spacy>=3.7.4
+nltk>=3.8.1
+langdetect>=1.0.9
+deep-translator>=1.11.4
+emoji>=2.12.0
+contractions>=0.1.73
+
+# --- Datos Financieros ---
+yfinance>=0.2.40
+pycoingecko>=3.1.0
+fredapi>=0.5.1
+
+# --- Scraping y APIs ---
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+selenium>=4.21.0
+webdriver-manager>=4.0.1
+newsapi-python>=0.2.7
+praw>=7.7.1
+snscrape>=0.7.0.20230622
+
+# --- Almacenamiento ---
+pandas>=2.2.2
+pyarrow>=16.1.0
+sqlalchemy>=2.0.30
+
+# --- Análisis Estadístico ---
+scipy>=1.13.0
+statsmodels>=0.14.2
+pingouin>=0.5.4
+
+# --- Visualización ---
+streamlit>=1.36.0
+plotly>=5.22.0
+matplotlib>=3.9.0
+seaborn>=0.13.2
+wordcloud>=1.9.3
+
+# --- Utilidades ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.2
+pydantic>=2.7.0
+schedule>=1.2.1
+
+# --- Jupyter ---
+jupyterlab>=4.2.0
+ipywidgets>=8.1.0
+nbformat>=5.10.0

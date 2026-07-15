@@ -1,0 +1,33 @@
+# Archivos a ignorar en Git
+.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Modelos grandes (subir por separado o con git-lfs)
+models/*.pt
+models/*.pkl
+models/*.bin
+
+# Datos sensibles
+data/raw/tweets/
+data/raw/news/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+scripts/ 

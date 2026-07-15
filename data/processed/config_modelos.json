@@ -1,0 +1,37 @@
+{
+  "mejor_modelo_clasico": "SVM",
+  "label2id": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "id2label": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "finbert_model": "ProsusAI/finbert",
+  "beto_model": "dccuchile/bert-base-spanish-wwm-uncased",
+  "resultados": {
+    "Lexico Baseline": {
+      "accuracy": 0.7252100840336134,
+      "f1_macro": 0.6033142304850571
+    },
+    "TF-IDF + LogReg": {
+      "accuracy": 0.784453781512605,
+      "f1_macro": 0.7234199329937825
+    },
+    "TF-IDF + SVM": {
+      "accuracy": 0.8092436974789916,
+      "f1_macro": 0.740756744332451
+    },
+    "FinBERT (zero-shot)": {
+      "accuracy": 0.7225,
+      "f1_macro": 0.648978556643677
+    },
+    "BETO Fine-Tuned (ES)": {
+      "accuracy": 0.72,
+      "f1_macro": 0.68
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-06-21T11:46:51.977725",
+  "start_date": "2022-01-01",
+  "sources": {
+    "yahoo_finance": {
+      "tickers_requested": 8,
+      "tickers_downloaded": 8,
+      "tickers": [
+        "SPY",
+        "EEM",
+        "ILF",
+        "EWZ",
+        "GLD",
+        "USO",
+        "BTC-USD",
+        "ETH-USD"
+      ]
+    },
+    "coingecko": {
+      "coins_downloaded": 0,
+      "days": 730,
+      "coins": []
+    },
+    "macro": {
+      "records": 0
+    }
+  }
+}
